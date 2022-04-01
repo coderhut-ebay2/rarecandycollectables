@@ -426,4 +426,8 @@ a:hover {
 	.mb {
 		display: block;
 	}
+	.ftr-logo,
+	.hdr-logo {
+		text-align: center;
+	}
 }

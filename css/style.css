@@ -245,7 +245,7 @@ a:hover {
 .main-tab label {
     display: inline-block;
     margin: 0 0 -1px;
-    padding: 10px 15px;
+    padding: 10px 10px;
     font-weight: 600;
     text-align: center;
     color: #fff;
@@ -358,24 +358,72 @@ a:hover {
 }
 
 
+/* Extra */
 
+.mb {
+	display: none;
+}
 
 
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+	.hdr-nav ul li {
+		margin-right: 5px;
+	}
+	.hdr-nav ul li a i {
+		margin-left: 5px;
+	}
+	.hdr-nav ul li a {
+		padding-left: 5px;
+		font-size: 13px;
+	}
+	.main-tab label {
+		padding: 10px 5px;
+		font-size: 13px;
+	}
 
 }
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.hdr-nav ul li {
+		margin-bottom: 10px;
+	}
+	.pro-title {
+		margin-top: 35px
+	}
 
 }
 
 /* Extra small Device. */
 @media (max-width: 767px) {
 
- 
+ 	.pro-title {
+		margin-top: 35px;
+		font-size: 18px;
+	}
+	.hdr-nav ul li {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.hdr-nav ul li a {
+		height: 50px;
+		line-height: 50px;
+	}
+	.hdr-nav ul li a i {
+		float: right;
+	}
+	.main-tab label span {
+		display: none
+	}
+	.copy-right {
+		margin-top: 15px;
+		text-align: center;
+	}
+	.mb {
+		display: block;
+	}
 }
